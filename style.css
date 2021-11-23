@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #161616;
+    color: #e0e0e0;
+    font-family: 'Kenoky';
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    height: 30px;
+    width: 100%;
+}
+.logo,
+.menu{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 0px 5px;
+}
+.gallery-container{
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(-25%,-25%);
+    width: 150vw;
+    height: 150vh;
+}
+.gallery{
+    height: 100%;
+    width: 100%;
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-image{
+    width: 500px;
+    height: 500px;
+    margin: 50px 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    filter: grayscale(0.5);
+}
+.gallery-image1{
+    background-image: url(/images/image1.jpg);
+    width: 400px;
+    height: 800px;
+
+}
+.gallery-image2{
+    background-image: url(/images/image2.jpg);
+    margin: 0;
+}
+.gallery-image3{
+    background-image: url(/images/image3.jpg);
+    height: 600px;
+    width: 400px;
+    margin: 0;
+
+}
+.gallery-image4{
+    background-image: url(/images/image4.jpg);
+
+}
+.gallery-image5{
+    background-image: url(/images/image5.jpg);
+}
+.gallery-image6{
+    background-image: url(/images/image6.jpg);
+    width: 600px;
+    height: 800px;
+    margin: 0;
+}
+.gallery-image7{
+    background-image: url(/images/image7.jpg);
+    height: 300px;
+    width: 300px;
+    margin: 0;
+}
+.gallery-image8{
+
+    background-image: url(/images/image8.jpg);
+    margin: 0;
+}
+.gallery-image9{
+    background-image: url(/images/image9.jpg);
+    height: 800px;
+    margin: 0;
+}
+.gallery-image10{
+    background-image: url(/images/image10.jpg);
+    height: 200px;
+    width: 200px;
+}
+.gallery-image11{
+    background-image: url(/images/image11.jpg);
+    height: 300px;
+    margin: 0;
+    width: 600px;
+}
+.gallery-image12{
+    background-image: url(/images/image12.jpg);
+    margin: 0;
+}
